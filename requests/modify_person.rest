@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/persons/6806df699ffd103a1a35961b
+Content-Type: application/json
+
+{
+    "name": "Ludwig Van Beethoven",
+    "number": "56-85-134795"
+}
