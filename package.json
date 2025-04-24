@@ -7,6 +7,7 @@
     "dev": "nodemon index.js",
     "build:ui": "@powershell Remove-Item -Recurse -Force dist && cd ../exercises/part2/telephone_agenda && npm run build && @powershell Copy-Item dist -Recurse ../../../fullstackopen_part3",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -20,6 +21,11 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "eslint": "^9.25.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
     "nodemon": "^3.1.9"
   }
 }
