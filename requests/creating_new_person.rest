@@ -1,7 +1,0 @@
-POST https://fullstackopen-part3-y0zo.onrender.com/api/persons
-Content-Type: application/json
-
-{
-    "name": "Jhon Doe",
-    "number": "12-34-567890"
-}
